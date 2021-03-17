@@ -1,0 +1,62 @@
+
+.btn-primary {
+    border: 1px solid 
+    #7c9eb2;
+    color: #7c9eb2;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+ .btn-primary:hover{
+    border: 1px solid 
+    #7c9eb2;
+    background-color: #7c9eb2;
+    text-decoration:  none;
+  }
+
+  .btn-primary:focus{
+    border: 1px solid 
+    #7c9eb2;
+    background-color: #7c9eb2;
+    text-decoration:  none;
+  }
+
+.frame{
+    height: 500px;
+    background-image: url(../images/1920_bg_banner.jpg);
+  
+  }
+ 
+.slogan{
+    width: 810px;
+    margin:auto;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+.line{
+    width: 100%;
+    border: 1px solid white;
+    opacity: 0.5;
+    margin-top: 40px;
+}
+
+.banner{
+    height: 400px;
+    background-image: url(../images/banner-2.jpg);
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+
+.space{
+    height: 100px;
+}
+
+.tag{
+    height: 25px;
+    width: 2px;
+    border:2px solid 
+    #001f4e;
+}

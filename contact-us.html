@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap-4.2.1/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>匯百川科技有限公司</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/btn/匯百川_logo.svg"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        ></button>
+
+        <ul class="nav justify-content-end">
+          <li class="nav-item fw-bolder">
+            <a class="nav-link active mt-3" aria-current="page" href="#"
+              >關於我們</a
+            >
+          </li>
+
+          <li class="nav-item fw-bolder">
+            <a class="nav-link active mt-3" aria-current="page" href="#"
+              >服務項目</a
+            >
+          </li>
+
+          <li class="nav-item dropdown mt-3">
+            <a
+              class="nav-link dropdown-toggle fw-bolder active"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              案例分享
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <span class="dropdown-item-text">Dropdown item text</span>
+              </li>
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item fw-bolder">
+            <a class="nav-link active mt-3" aria-current="page" href="#"
+              >聯絡我們</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--BANNER-->
+    <div class="banner">
+      <div class="container">
+        <h3 class="text-white aa">聯絡我們</h3>
+      </div>
+    </div>
+
+    <!--breadcrumb-->
+    <div class="container bg-white">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mt-2">
+          <li class="breadcrumb-item"><a href="#">首頁</a></li>
+          <li class="breadcrumb-item active" aria-current="page">聯絡我們</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!--content-->
+    <div class="container">
+      <h1 class="text-center fw-bolder m-5">· 聯絡我們 ·</h1>
+    </div>
+
+    <div class="container d-flex">
+      <div class="col-6">
+        <div class="row">
+          <div class="col-1"><div class="tag"></div></div>
+          <div class="col">
+            <h6 class="fw-bolder" style="margin-left: -35px">聯絡資訊</h6>
+          </div>
+        </div>
+        <p>電話：總機 吳小姐 0968-390895</p>
+        <p>業務 謝明憲 Peter 0928-882757</p>
+        <p>地址：300新竹市經國路二段56號6樓之3</p>
+        <p>信箱：hueibaichuan@gmail.com</p>
+        <img src="assets/images/map.jpg" />
+      </div>
+
+      <div class="col-6">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">姓名*</label>
+            <input
+              type="name"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">電話*</label>
+            <input
+              type="phone"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Enter phone"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">信箱*</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">企業需求*</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>客製化資訊系統開發</option>
+              <option>CRM資訊管理系統開發</option>
+              <option>CRM系統-單機版</option>
+              <option>其他</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">其他意見*</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit " class="btn btn-primary">送出資訊</button>
+        </form>
+      </div>
+    </div>
+
+    <!--space-->
+
+    <div class="space"></div>
+
+    <!--footer-->
+    <div
+      class="container-fluid mt-5"
+      style="background-color: #001f4e; height: 200px"
+    >
+      <div class="container d-flex">
+        <div class="col" style="margin-top: 50px">
+          <a class="navbar-brand" href="#">
+            <img src="assets/btn/匯百川_logo_white.svg"
+          /></a>
+        </div>
+
+        <div class="col pl-5" style="margin-top: auto; color: white">
+          <a class="d-flex" style="position: relative"
+            ><img src="assets/btn/phone.svg" />
+            <h6 class="ml-2 mt-1">總機 | 0968-390895</h6></a
+          >
+          <a class="d-flex" style="position: relative"
+            ><img src="assets/btn/phone.svg" />
+            <h6 class="ml-2 mt-1">業務 | 謝明憲(Peter) 0928-882757</h6></a
+          >
+        </div>
+
+        <div class="col" style="margin-top: auto; color: white">
+          <div class="row">
+            <a class="d-flex" style="position: relative"
+              ><img src="assets/btn/email.svg" />
+              <h6 class="ml-2 mt-1">hueibaichuan@gmail.com</h6></a
+            >
+            <a class="d-flex" style="position: relative"
+              ><img src="assets/btn/address.svg" />
+              <h6 class="ml-2 mt-1">300新竹市經國路二段56號6樓之3</h6></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="container">
+        <p class="text-white text-center m-2">
+          © Huei Bai Chuan Technology Co., Ltd., All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+    <!--script-->
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="assets/css/slick/slick.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".slide").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: true,
+          responsive: [
+            {
+              breakpoint: 1000,
+              settings: {
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
