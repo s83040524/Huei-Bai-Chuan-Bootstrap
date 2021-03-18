@@ -66,12 +66,10 @@
 }
 
 .banner .banner-text {
-  position:absolute;
+  position: absolute;
   width: 100%;
   max-width: 1080px;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .tag {
@@ -88,6 +86,13 @@
   width: 100%;
 }
 
+.menu-icon {
+  width: 32px;
+  height: 24px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 @media screen and (max-width: 980px) {
   .navbar .nav {
@@ -98,6 +103,10 @@
     display: block;
     position: absolute;
     right: 12%;
+  }
+
+  .menu-icon {
+    display: flex;
   }
 }
 
@@ -117,7 +126,100 @@ footer {
   color: #fff;
 }
 
-.contact:hover{
+.contact:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.mobile {
+  display: block;
+}
+
+.menu-icon .menu-line {
+  width: 100%;
+  height: 2px;
+  background: #7c9eb2;
+  border-radius: 1px;
+  display: block;
+  transition: all 0.3s;
+}
+
+.menu-icon.close-icon span:nth-child(1) {
+  transform: translateY(11px) rotate(45deg);
+}
+
+.menu-icon.close-icon span:nth-child(2) {
+  display: none;
+}
+
+.menu-icon.close-icon span:nth-child(3) {
+  transform: translateY(-11px) rotate(-45deg);
+}
+
+.main-menu {
+  position: fixed;
+  width: 100%;
+  margin-top: 74px;
+  height: 0px;
+  z-index: 999;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.main-menu .main-navigation {
+  margin: auto;
+  background: #7c9eb2;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+.main-menu.open {
+  height: 500px;
+}
+
+.main-menu .main-navigation ul {
+  list-style: none;
+  margin: 0;
+}
+
+.main-menu .main-navigation ul li {
+  padding: 8px 8px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.main-menu .main-navigation ul li a {
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.main-menu .main-navigation ul li:hover {
+  cursor: pointer;
+}
+
+.main-menu .main-navigation ul li:hover a {
+  color: black;
+  transform: translateX(8px);
+}
+
+.main-menu .case-item {
+  margin: auto;
+  background: #9f9f9f;
+  height: 0px;
+  overflow: hidden;
+  padding: 0;
+  width: 105%;
+  position: relative;
+  left: -32px;
+  transition: all 0.3s;
+}
+
+.main-menu .case-item.open {
+  height: 170px;
 }
