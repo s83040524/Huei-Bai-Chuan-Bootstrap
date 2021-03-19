@@ -174,7 +174,8 @@ footer {
 
 .main-menu .main-navigation {
   margin: auto;
-  background: #7c9eb2;
+  background: #6f6f6f;
+  opacity: 0.9;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 }
 
@@ -210,8 +211,8 @@ footer {
 }
 
 .main-menu .main-navigation ul li:hover a {
-  color: black;
-  transform: translateX(8px);
+  color: #001f4e;
+  /*transform: translateX(8px);*/
 }
 
 .main-menu .case-item {
