@@ -21,6 +21,12 @@
   text-decoration: none;
 }
 
+.content:hover {
+  color: #001f4e;
+  text-decoration: none;
+}
+
+
 .frame {
   height: 500px;
   background-image: url(../images/1920_bg_banner.jpg);
@@ -69,7 +75,7 @@
   position: absolute;
   width: 100%;
   max-width: 1080px;
-  top: 50%;
+  top: 45%;
 }
 
 .tag {
