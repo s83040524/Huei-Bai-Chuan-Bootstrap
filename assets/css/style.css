@@ -174,7 +174,7 @@ footer {
 
 .main-menu .main-navigation {
   margin: auto;
-  background: #6f6f6f;
+  background: #9f9f9f;
   opacity: 0.9;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 }
@@ -230,3 +230,4 @@ footer {
 .main-menu .case-item.open {
   height: 170px;
 }
+
