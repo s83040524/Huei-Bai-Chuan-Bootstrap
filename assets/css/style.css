@@ -231,3 +231,6 @@ footer {
   height: 170px;
 }
 
+.footer h6{
+    white-space:nowrap;
+}
